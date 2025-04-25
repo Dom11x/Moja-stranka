@@ -11,21 +11,88 @@
 
 body{
     background-color: var(--background);
+    margin: 0;
 }
 
 header{
-
+   
 }
+
+.header_ol{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    justify-content: end;
+    padding: 0 1rem 0 0;
+}
+
+li{
+    list-style-type: none;
+    color: #DFD3C3;
+}
+
+.header_li{
+    color: #DFD3C3;
+}
+
+.header_li_u{
+    color: #DFD3C3;
+    text-decoration: underline;
+}
+
 
 main{
 
 }
 
+.h1_meno{
+    color: #DFD3C3;
+}
+
+.p_omne{
+    color: #DFD3C3;
+}
+
+.h1_programy{
+    color: #DFD3C3;
+}
+
+.h1_prave_sa_ucim{
+    color: #DFD3C3;
+}
+
 footer{
-    
+
 }
-li{
-    list-style-type: none;
+
+.footer_h3_meno{
+    color: #DFD3C3;
 }
+
+.footer_p{
+    color: #DFD3C3;
+}
+
+.footer_img_mail{
+    width: 3rem;
+}
+
+
+img{
+    width: 5rem;
+}
+
+.csshtml{
+    width: 7rem;
+    margin: -2rem 0 -2rem -0.7rem;
+}
+
+
+@media only screen and (max-width: 768px) {
+    body{
+
+    }
+}    
+
 
 
