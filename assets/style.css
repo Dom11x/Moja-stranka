@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Joan&family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+:root {
+    --background: #272727 ;
+    --text: #DFD3C3;
+    --idk: #515151;
+    --dark: #171717;
+
+
+}
+
+body{
+    background-color: var(--background);
+}
