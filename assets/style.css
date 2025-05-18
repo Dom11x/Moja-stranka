@@ -33,11 +33,11 @@ li{
 
 .header_li{
     color: #DFD3C3;
+    text-decoration: none;
 }
 
 .header_li_u{
     color: #DFD3C3;
-    text-decoration: underline;
 }
 
 
