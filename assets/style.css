@@ -62,12 +62,11 @@ main{
 
 .div__ja{
     display: flex;
+    width: 100%;
 }
 
 .img__ja{
     margin: 2.56rem 0rem 0rem 0rem;
-    width: 14.0625rem;
-    height: 14.0625rem;
     border-radius: 1.0625rem;
 }
 
@@ -187,12 +186,32 @@ img{
 
     }
 
+    .img__ja{
+        margin: 0;
+        width: 14.0625rem;
+        height: 14.0625rem;
+    }
+
+    .div__ja{
+        display: flex;
+        justify-content: left;
+        align-items: center;
+    }
+
+    .container__meno{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+
     .h1__meno{
-        margin: 6rem 1rem 6rem 1rem;
+        margin: 0;
+        height: auto;
     }
 
     .p__omne{
-        padding: 0rem 2.5rem 8rem 2.5rem;
+        padding: 4rem 2.5rem 8rem 2.5rem;
     }
 
     .h1__programy{
@@ -224,11 +243,97 @@ img{
         margin: 1rem 0rem 4rem 0rem;
     }
 
+    footer{
+        width: 100%;
+    }
+
+    .footer__container{
+        display: flex;
+        justify-content: space-around;
+        margin: 0 0 3rem 0;
+    }
+
+    .footer_h3_meno{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: left;
+        margin: 0 0 0 1rem;
+        font-size: 1rem;
+    }
+
+    .footer_img_mail{
+       margin-left: auto;
+    }
+
 
 }    
 
 @media only screen and (min-width: 769px) {
+    body{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
 
+    header{
+        display: flex;
+        justify-content: end;
+        flex-direction: row;
+        width: 100%;
+        gap: 1.25rem;
+        background: var(--background);
+        margin-bottom: 1rem;
+    }
+
+    .header_ol{
+        margin-right: 2rem;
+    }
+
+    .header_li{
+        font-size: 1.5rem;
+    }
+
+    .header_li_u{
+        font-size: 1.5rem;
+    }
+
+    .img__ja{
+        width: 24.5rem;
+        height: 24.5rem;
+        margin: 0;
+    }
+
+    .div__ja{
+        display: flex;
+        align-items: center;
+        justify-content: start;
+    }
+
+    .main__container__d{
+        display: flex;
+        align-items: center;
+    }
+
+    .h1__meno{
+        margin: -1rem 0 -1rem 0;
+        font-size: 4rem;
+    }
+
+    .container__meno{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .p__omne{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0rem 2.5rem 0rem 2.5rem;
+        font-size: 2rem;
+    }
 }
 
 
