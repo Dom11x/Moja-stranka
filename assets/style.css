@@ -151,8 +151,18 @@ img{
 }
 
 .csshtml{
-    width: 7rem;
-    margin: -2rem 0 -2rem -0.7rem;
+    width: auto;
+    height: 5rem;
+}
+
+.blender{
+    width: auto;
+    height: 5rem;
+}
+
+.indesign{
+    width: auto;
+    height: 5rem;
 }
 
 
@@ -190,12 +200,36 @@ img{
         justify-content: center;
     }
 
+    .h1_prave_sa_ucim{
+        font-size: 2.5rem;
+    }
+
     .ol__icon{
         font-size: 1.5rem;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: flex-start;
+        align-content: flex-start;
+        gap: 2.25rem;
+        margin: 1rem 0rem 8rem 0rem;
+    }
+
+    .ol__icon2{
+        font-size: 1.5rem;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 4rem;
+        justify-content: center;
+        margin: 1rem 0rem 4rem 0rem;
     }
 
 
 }    
+
+@media only screen and (min-width: 769px) {
+
+}
 
 
 
