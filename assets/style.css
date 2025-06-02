@@ -176,7 +176,7 @@ img{
     
     header{
         display: flex;
-        justify-content: right;
+        justify-content: end;
         flex-direction: row;
         width: 98%;
         gap: 1.25rem;
