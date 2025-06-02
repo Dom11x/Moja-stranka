@@ -24,21 +24,35 @@ header{
     flex-direction: row;
     gap: 1rem;
     justify-content: end;
-    padding: 0 1rem 0 0;
 }
 
 li{
     list-style-type: none;
     color: #DFD3C3;
+    text-align: center;
+    font-family: Joan;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
 .header_li{
     color: #DFD3C3;
     text-decoration: none;
+    text-align: center;
+    font-family: Joan;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
 .header_li_u{
     color: #DFD3C3;
+    text-align: center;
+    font-family: Joan;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
 
@@ -51,10 +65,10 @@ main{
 }
 
 .img__ja{
-    margin: 2.56rem 1rem 0rem 0rem;
+    margin: 2.56rem 0rem 0rem 0rem;
     width: 14.0625rem;
     height: 14.0625rem;
-    flex-shrink: 0;
+    border-radius: 1.0625rem;
 }
 
 
@@ -63,7 +77,6 @@ main{
     height: 7.25rem;
     text-align: center;
     font-family: Joan;
-    font-size: 2.5rem;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -71,14 +84,39 @@ main{
 
 .p__omne{
     color: #DFD3C3;
+    text-align: center;
+    font-family: Joan;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.ol__icon{
+    margin: 0;
+    padding: 0;
+}
+
+.ol__icon2{
+    margin: 0;
+    padding: 0;
 }
 
 .h1__programy{
     color: #DFD3C3;
+    text-align: center;
+    font-family: Joan;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
 .h1_prave_sa_ucim{
     color: #DFD3C3;
+    text-align: center;
+    font-family: Joan;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
 footer{
@@ -87,10 +125,20 @@ footer{
 
 .footer_h3_meno{
     color: #DFD3C3;
+    text-align: center;
+    font-family: Joan;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
 .footer_p{
     color: #DFD3C3;
+    text-align: center;
+    font-family: Joan;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
 .footer_img_mail{
@@ -118,11 +166,10 @@ img{
     
     header{
         display: flex;
-        height: 4.0625rem;
-        justify-content: flex-end;
-        align-items: center;
+        justify-content: right;
+        flex-direction: row;
+        width: 98%;
         gap: 1.25rem;
-        padding-left: 12rem;
         background: var(--background);
     }
 
@@ -131,8 +178,23 @@ img{
     }
 
     .h1__meno{
-        margin: 6rem 1rem 6rem 0rem;
+        margin: 6rem 1rem 6rem 1rem;
     }
+
+    .p__omne{
+        padding: 0rem 2.5rem 8rem 2.5rem;
+    }
+
+    .h1__programy{
+        font-size: 2.5rem;
+        justify-content: center;
+    }
+
+    .ol__icon{
+        font-size: 1.5rem;
+    }
+
+
 }    
 
 
