@@ -12,10 +12,17 @@ body{
     background-color: var(--background);
     margin: 0;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
 }
 
 header{
+    background: var(--background);
     border-bottom: #171717 solid;
+    width: 100%;
 }
 
 .header_ol{
@@ -23,6 +30,7 @@ header{
     flex-direction: row;
     gap: 1rem;
     justify-content: end;
+    margin-right: 1rem;
 }
 
 li{
@@ -65,7 +73,6 @@ main{
 }
 
 .img__ja{
-    margin: 2.56rem 0rem 0rem 0rem;
     border-radius: 1.0625rem;
 }
 
@@ -90,9 +97,20 @@ main{
     line-height: normal;
 }
 
+.ol__prace{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    padding: 0;
+}
+
 .ol__icon{
     margin: 0;
     padding: 0;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .ol__icon2{
@@ -121,6 +139,7 @@ main{
 footer{
     border-top: #171717 solid;
     padding-top: 1rem;
+    margin-top: auto;
     
 }
 
@@ -140,6 +159,7 @@ footer{
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    width: 100%;
 }
 
 .footer_img_mail{
@@ -150,6 +170,11 @@ footer{
 
 img{
     width: 5rem;
+}
+
+.ol__img__prace{
+    width: 20rem;
+    border-radius: 1rem;
 }
 
 .csshtml{
@@ -170,19 +195,10 @@ img{
 
 @media only screen and (max-width: 768px) {
     body{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: flex-start;
     }
     
     header{
-        display: flex;
-        justify-content: end;
-        flex-direction: row;
-        width: 98%;
         gap: 1.25rem;
-        background: var(--background);
     }
 
     main{
@@ -229,13 +245,10 @@ img{
 
     .ol__icon{
         font-size: 1.5rem;
-        display: flex;
-        flex-wrap: wrap;
         justify-content: center;
         align-items: flex-start;
         align-content: flex-start;
         gap: 2.25rem;
-        margin: 1rem 0rem 8rem 0rem;
     }
 
     .ol__icon2{
@@ -275,19 +288,10 @@ img{
 
 @media only screen and (min-width: 769px) {
     body{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: flex-start;
     }
 
     header{
-        display: flex;
-        justify-content: end;
-        flex-direction: row;
-        width: 100%;
         gap: 1.25rem;
-        background: var(--background);
         margin-bottom: 0rem;
         
     }
@@ -352,8 +356,6 @@ img{
 
     .ol__icon{
         font-size: 2rem;
-        display: flex;
-        flex-wrap: wrap;
         justify-content: space-around;
         flex-direction: row;
         gap: 5rem;
