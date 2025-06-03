@@ -15,7 +15,7 @@ body{
 }
 
 header{
-
+    border-bottom: #171717 solid;
 }
 
 .header_ol{
@@ -78,6 +78,7 @@ main{
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    padding-left: 0.5rem;
 }
 
 .p__omne{
@@ -118,7 +119,9 @@ main{
 }
 
 footer{
-
+    border-top: #171717 solid;
+    padding-top: 1rem;
+    
 }
 
 .footer_h3_meno{
@@ -141,6 +144,7 @@ footer{
 
 .footer_img_mail{
     width: 3rem;
+    margin-right: 0.5rem;
 }
 
 
@@ -216,6 +220,7 @@ img{
     .h1__programy{
         font-size: 2.5rem;
         justify-content: center;
+        margin-top: 2rem;
     }
 
     .h1_prave_sa_ucim{
@@ -283,7 +288,8 @@ img{
         width: 100%;
         gap: 1.25rem;
         background: var(--background);
-        margin-bottom: 1rem;
+        margin-bottom: 0rem;
+        
     }
 
     .header_ol{
@@ -330,7 +336,63 @@ img{
         display: flex;
         align-items: center;
         justify-content: center;
-        padding: 0rem 2.5rem 0rem 2.5rem;
+        padding: 0rem 6rem 0rem 6rem;
         font-size: 2rem;
+    }
+
+    .h1__programy{
+        font-size: 4rem;
+        margin:10rem 0 4rem 0;
+    }
+
+    .h1_prave_sa_ucim{
+        font-size: 4rem;
+        margin: 10rem 0 4rem 0;
+    }
+
+    .ol__icon{
+        font-size: 2rem;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        flex-direction: row;
+        gap: 5rem;
+    }
+
+    .ol__icon2{
+        font-size: 2rem;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        flex-direction: row;
+        gap: 2rem;
+    }
+
+    footer{
+        width: 100%;
+    }
+
+    .footer__container{
+        display: flex;
+        justify-content: space-around;
+        margin: 0 0 3rem 0;
+    }
+
+    .footer_h3_meno{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: left;
+        margin: 0 0 0 1rem;
+        font-size: 1.5rem;
+    }
+
+    .footer_img_mail{
+        margin-left: auto;
+    }
+
+    .footer_p{
+        font-size: 1.5rem;
+
     }
 }
