@@ -64,7 +64,7 @@ li{
 
 
 main{
-
+    width: 100%;
 }
 
 .div__ja{
@@ -97,9 +97,10 @@ main{
     line-height: normal;
 }
 
-.ol__prace{
+.div__prace{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     gap: 2rem;
@@ -172,7 +173,7 @@ img{
     width: 5rem;
 }
 
-.ol__img__prace{
+.div__img__prace{
     width: 20rem;
     border-radius: 1rem;
 }
@@ -194,16 +195,11 @@ img{
 
 
 @media only screen and (max-width: 768px) {
-    body{
-    }
-    
+
     header{
         gap: 1.25rem;
     }
 
-    main{
-
-    }
 
     .img__ja{
         margin: 0;
@@ -241,6 +237,16 @@ img{
 
     .h1_prave_sa_ucim{
         font-size: 2.5rem;
+    }
+
+    .div__prace{
+        gap: 2rem;
+        padding: 0;
+    }
+
+    .div__img__prace{
+        width: 11.0625rem;
+        height: 11.0625rem
     }
 
     .ol__icon{
@@ -287,8 +293,6 @@ img{
 }    
 
 @media only screen and (min-width: 769px) {
-    body{
-    }
 
     header{
         gap: 1.25rem;
@@ -353,6 +357,17 @@ img{
         font-size: 4rem;
         margin: 10rem 0 4rem 0;
     }
+
+    .div__prace{
+        gap: 2rem;
+        padding: 0;
+    }
+
+    .div__img__prace{
+        width: 22.375rem;
+        height: 22.4375rem;
+    }
+
 
     .ol__icon{
         font-size: 2rem;
