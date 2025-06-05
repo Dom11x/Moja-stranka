@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/normalize.css">
     <link rel="stylesheet" href="assets/style.css">
-    <title>Document</title>
+    <title>Kontakt</title>
 </head>
 <body>
     <header>
@@ -17,7 +17,41 @@
 
     </header>
 
-     <footer>
+    <div class="container__contact">
+        <h1 class="container__contact_h1">Kontakt</h1>
+        <p class="container__contact_p">Ak máte akékoľvek otázky, neváhajte ma kontaktovať prostredníctvom nižšie uvedených informácií.</p>
+    
+        <div class="form__contact">
+            <div class="container__group">
+                <div class="contact__group">
+                    <label class="group__label" for="name">Meno:</label>
+                    <input type="text" id="name" placeholder="">
+                </div>
+                <div class="contact__group">
+                    <label class="group__label" for="">Email:</label>
+                    <input type="email" id="email" placeholder="">
+                </div>
+                <div class="contact__group">
+                    <label class="group__label" for="number">Telefônne čislo:</label>
+                    <input type="text" id="number" placeholder="">
+                </div>
+                <div class="contact__group">
+                    <label class="group__label" for="predmet">Predmet:</label>
+                    <input type="text" id="predmet" placeholder="">
+                </div>
+            </div>
+
+            <div class="container__sprava">
+                <div class="contact__group">
+                    <label class="group__label" for="sprava">Správa:</label>
+                    <textarea id="sprava" placeholder=""></textarea>
+                </div>
+            </div>
+        </div>
+        <button class="contact__button" type="submit">Odoslať</button>
+    </div>
+
+    <footer>
         <div class="footer__container">
             <h3 class="footer_h3_meno">Dominik Štrbák</h3>
             <img class="footer_img_mail" src="images/mail_100dp_DFD3C3_FILL0_wght400_GRAD0_opsz48.png" alt="">
