@@ -174,6 +174,7 @@ footer{
 
 .footer__img_link{
     margin-left: auto;
+    color: var(--text);
 }
 
 .footer_h3_meno{
@@ -185,11 +186,6 @@ footer{
     width: 100%;
 }
 
-.footer_img_mail{
-    width: 3rem;
-    margin-right: 0.5rem;
-}
-
 img{
     width: 5rem;
 }
@@ -198,6 +194,7 @@ img{
     width: 20rem;
     border-radius: 1rem;
     margin-bottom: 4rem;
+    
 }
 
 .csshtml{
@@ -350,8 +347,10 @@ img{
         font-size: 1rem;
     }
 
-    .footer_img_mail{
+    .footer__img_link{
        margin-left: auto;
+        font-size: 1rem;
+        margin-right: 1rem
     }
 
 @media only screen and (min-width: 769px) {
@@ -518,9 +517,10 @@ img{
         font-size: 1.5rem;
     }
 
-    .footer_img_mail{
-        margin-left: auto;
-    }
+    .footer__img_link{
+        font-size: 1.2rem;
+        margin-right: 1rem;
+     }
 
     .footer_p{
         font-size: 1.5rem;
