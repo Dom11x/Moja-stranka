@@ -23,34 +23,37 @@
 
     <div class="contact">
         <h1 class="contact__nadpis">Kontakt</h1>
-        <div class="contact__form">
-            <div class="contact__group_container">
-                <div class="contact__group">
-                    <label class="contact__label" for="name">Meno:</label>
-                    <input type="text" id="name" placeholder="">
+        <!--<form action="https://api.web3forms.com/submit" method="POST">>-->
+            <!--<input type="hidden" name="access_key" value="06e9c32b-7c16-424a-8adf-9dadeb8f795c">-->
+            <div class="contact__form">
+                <div class="contact__group_container">
+                    <div class="contact__group">
+                        <label class="contact__label" for="name">Meno:</label>
+                        <input type="text" name="name" placeholder="">
+                    </div>
+                    <div class="contact__group">
+                        <label class="contact__label" for="">Email:</label>
+                        <input type="email" name="email" placeholder="">
+                    </div>
+                    <div class="contact__group">
+                        <label class="contact__label" for="number">Telefônne čislo:</label>
+                        <input type="text" name="number" placeholder="">
+                    </div>
+                    <div class="contact__group">
+                        <label class="contact__label" for="predmet">Predmet:</label>
+                        <input type="text" name="predmet" placeholder="">
+                    </div>
                 </div>
-                <div class="contact__group">
-                    <label class="contact__label" for="">Email:</label>
-                    <input type="email" id="email" placeholder="">
-                </div>
-                <div class="contact__group">
-                    <label class="contact__label" for="number">Telefônne čislo:</label>
-                    <input type="text" id="number" placeholder="">
-                </div>
-                <div class="contact__group">
-                    <label class="contact__label" for="predmet">Predmet:</label>
-                    <input type="text" id="predmet" placeholder="">
-                </div>
-            </div>
 
-            <div class="container__sprava">
-                <div class="contact__group">
-                    <label class="contact__label" for="sprava">Správa:</label>
-                    <textarea id="sprava" placeholder=""></textarea>
+                <div class="container__sprava">
+                    <div class="contact__group">
+                        <label class="contact__label" for="sprava">Správa:</label>
+                        <textarea name="sprava" placeholder=""></textarea>
+                    </div>
                 </div>
             </div>
-        </div>
-        <button class="contact__button" type="submit">Odoslať</button>
+            <button class="contact__button" type="submit">Odoslať</button>
+       <!-- </form>-->
     </div>
 
     <footer>
