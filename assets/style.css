@@ -29,7 +29,7 @@ header{
     width: 100%;
 }
 
-.header_ol{
+.header__nav{
     display: flex;
     flex-direction: row;
     gap: 1rem;
@@ -41,28 +41,28 @@ li{
     list-style-type: none;
 }
 
-.header_li{
+.header__link{
     text-decoration: none;
     text-align: center;
     color: var(--text);
 }
 
-.header_li_u{
+.header__link_u{
     text-align: center;
     color: var(--text);
 }
 
-.div__ja{
+.profile{
     display: flex;
     width: 100%;
 }
 
-.img__ja{
+.profile__img{
     border-radius: 1.0625rem;
 }
 
 
-.h1__meno{
+.profile__meno{
     height: 7.25rem;
     text-align: center;
     padding-left: 0.5rem;
@@ -221,26 +221,26 @@ img{
     }
 
 
-    .img__ja{
+    .profile__img{
         margin: 0;
         width: 14.0625rem;
         height: 14.0625rem;
     }
 
-    .div__ja{
+    .profile{
         display: flex;
         justify-content: left;
         align-items: center;
     }
 
-    .container__meno{
+    .profile__container_meno{
         display: flex;
         flex-direction: column;
         align-items: center;
     }
     
 
-    .h1__meno{
+    .profile__meno{
         margin: 0;
         height: auto;
     }
@@ -366,25 +366,25 @@ img{
         
     }
 
-    .header_ol{
+    .header__nav{
         margin-right: 2rem;
     }
 
-    .header_li{
+    .header__link{
         font-size: 1.5rem;
     }
 
-    .header_li_u{
+    .header__link_u{
         font-size: 1.5rem;
     }
 
-    .img__ja{
+    .profile__img{
         width: 24.5rem;
         height: 24.5rem;
         margin: 0;
     }
 
-    .div__ja{
+    .profile{
         display: flex;
         align-items: center;
         justify-content: start;
@@ -395,12 +395,12 @@ img{
         align-items: center;
     }
 
-    .h1__meno{
+    .profile__meno{
         margin: -1rem 0 -1rem 0;
         font-size: 4rem;
     }
 
-    .container__meno{
+    .profile__container_meno{
         display: flex;
         flex-direction: column;
         align-items: center;
