@@ -1,11 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Joan&family=Outfit:wght@100..900&family=Young+Serif&display=swap');
 
+
 :root {
     --background: black ;
     --text: #DFD3C3;
     --idk: #515151;
     --dark: #171717;
 
+}
+
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 1000px var(--idk) inset;  
+    -webkit-text-fill-color: var(--text);               
+    transition: background-color 9999s ease-in-out 0s; 
 }
 
 body{
@@ -324,6 +331,13 @@ img{
         width: 14rem;
         height: 2.125rem;
         margin: 1rem 0 4rem 0;
+        transition: background-color 0.3s ease-in-out;
+    }
+
+    .contact__button:hover{
+        background-color: var(--dark);
+        color: var(--text);
+        transition: background-color 0.3s ease-in-out;
     }
 
     footer{
