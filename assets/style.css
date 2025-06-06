@@ -195,7 +195,8 @@ img{
 .portfolio__image{
     width: 20rem;
     border-radius: 1rem;
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;
+    aspect-ratio: 1/1.4142;
     
 }
 
@@ -267,7 +268,6 @@ img{
 
     .portfolio__image{
         width: 10rem;
-        height: 20rem
     }
 
     .programy__group{
@@ -432,7 +432,6 @@ img{
 
     .portfolio__image{
         width: 28rem;
-        height: 36rem;
     }
 
 
