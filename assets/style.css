@@ -45,10 +45,12 @@ li{
 .header_li{
     text-decoration: none;
     text-align: center;
+    color: var(--text);
 }
 
 .header_li_u{
     text-align: center;
+    color: var(--text);
 }
 
 .div__ja{
@@ -162,6 +164,16 @@ footer{
     padding-top: 1rem;
     margin-top: auto;
     
+}
+
+.footer__container{
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+}
+
+.footer__img_link{
+    margin-left: auto;
 }
 
 .footer_h3_meno{
@@ -326,8 +338,6 @@ img{
     }
 
     .footer__container{
-        display: flex;
-        justify-content: space-around;
         margin: 0 0 3rem 0;
     }
 
@@ -343,9 +353,6 @@ img{
     .footer_img_mail{
        margin-left: auto;
     }
-
-
-    
 
 @media only screen and (min-width: 769px) {
 
@@ -499,8 +506,6 @@ img{
     }
 
     .footer__container{
-        display: flex;
-        justify-content: space-around;
         margin: 0 0 3rem 0;
     }
 
